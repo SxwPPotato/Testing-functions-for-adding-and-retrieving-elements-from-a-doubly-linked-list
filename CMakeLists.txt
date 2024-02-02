@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20) 
+project(MyTest) 
+add_subdirectory(D:/1/Catch2 Catch2-build) 
+add_executable(MyTest List.cpp ) 
+target_link_libraries(MyTest PRIVATE Catch2::Catch2)
